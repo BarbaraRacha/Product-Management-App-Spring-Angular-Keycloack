@@ -7,13 +7,14 @@ import lombok.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter @Setter
+@Getter
+@Setter
 @Builder @ToString
 public class Product {
     @Id
     private  String id;
     private  String name;
     private  double price;
-    private  int quatity;
+    private  int quantity;
 
 }
